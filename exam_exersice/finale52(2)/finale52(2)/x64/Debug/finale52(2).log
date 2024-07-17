@@ -1,4 +1,0 @@
-﻿  finale52(2).cpp
-D:\CPP\cos2102\finale52(2)\finale52(2)\finale52(2).cpp(104): warning C4715: 'Room::getType_s': not all control paths return a value
-D:\CPP\cos2102\finale52(2)\finale52(2)\finale52(2).cpp(67): warning C4715: 'Boat::getMadefrom_s': not all control paths return a value
-  finale52(2).vcxproj -> D:\CPP\cos2102\finale52(2)\x64\Debug\finale52(2).exe
