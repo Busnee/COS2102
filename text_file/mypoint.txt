@@ -1,0 +1,69 @@
+#include <iostream>
+using namespace std;
+class Point {
+private:
+    static int num;
+    int x;
+    int y;
+    string name;
+public:
+    Point() {
+        num++;
+        set(0, 0, "nonamePoint");
+        cout << "num = " << num << endl;
+    }
+    Point(int a) {
+        num++;
+        set(a, 0, "nonamePoint");
+        cout << "num = " << num << endl;
+    }
+    Point(int a, int b) {
+        num++;
+        set(a, b, "nonamePoint");
+        cout << "num = " << num << endl;
+    }
+    Point(int a, int b, string c) {
+        num++;
+        set(a, b, c);
+        cout << "num = " << num << endl;
+    }
+    ~Point() {
+        num--;
+        cout << num << endl;
+    }
+    static int count() {
+        return num;
+    }
+    void setX(int x) {
+        this->x = x;
+    }
+    void setY(int y) {
+        this->y = y;
+    }
+    void setName(string n) {
+        name = n;
+    }
+    void set(int x, int y, string n) {
+        this->x = x;
+        this->y = y;
+        name = n;
+    }
+    int getX() {
+        return x;
+    }
+    int getY() {
+        return y;
+    }
+    string getName() {
+        return name;
+    }
+    void show(void);
+};
+void Point::show() {
+    cout << name << "(" << x << "," << y << ")" << endl;
+}
+int Point::num;
+int main()
+{
+    
+}

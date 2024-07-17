@@ -1,0 +1,3 @@
+﻿  finale60.cpp
+D:\CPP\cos2102\finale60\finale60\finale60.cpp(70): warning C4715: 'Chocolate::operator()': not all control paths return a value
+  finale60.vcxproj -> D:\CPP\cos2102\finale60\x64\Debug\finale60.exe

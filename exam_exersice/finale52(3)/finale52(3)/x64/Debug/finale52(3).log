@@ -1,0 +1,3 @@
+﻿  finale52(3).cpp
+D:\CPP\cos2102\finale52(3)\finale52(3)\finale52(3).cpp(87): warning C4715: 'Room::getType_s': not all control paths return a value
+  finale52(3).vcxproj -> D:\CPP\cos2102\finale52(3)\x64\Debug\finale52(3).exe
