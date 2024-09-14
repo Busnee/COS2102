@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 class Cooking {
@@ -126,7 +126,7 @@ public:
 		if (meat != 0) {
 			for (int i = 0; i < num; i++)
 				delete meat[i];
-			delete[] meat;
+			delete meat;
 		}
 		n--;
 	}
@@ -156,8 +156,8 @@ public:
 	}
 	void setNum(int nMeat) {
 		if (meat != 0) {
-			for (int i = 0; i < num; i++)
-				delete meat[i];
+			// for (int i = 0; i < num; i++)
+			// 	delete meat[i];
 			delete[]meat;
 		}
 		num = nMeat;
@@ -329,8 +329,8 @@ int main()
 		cout << order3.getFood(i).getName() << ",";
 	cout << endl;
 	cout << "--finish--" << endl;
-	//delete[] c;
-	//delete[] m;
+	// delete[] c;
+	// delete[] m;
 	for(int i=0; i<4; i++)
 		delete c[i];
 	for(int i=0; i<6; i++)
