@@ -329,10 +329,6 @@ int main()
 		cout << order3.getFood(i).getName() << ",";
 	cout << endl;
 	cout << "--finish--" << endl;
-	// delete[] c;
-	// delete[] m;
-	for(int i=0; i<4; i++)
-		delete c[i];
-	for(int i=0; i<6; i++)
-		delete m[i];
+	delete[] c;
+	delete[] m;
 }
