@@ -332,8 +332,6 @@ int main()
 	//delete[] m;
 	for(int i=0; i<4; i++)
 		delete c[i];
-	delete[] c;
 	for(int i=0; i<6; i++)
 		delete m[i];
-	delete[] m;
 }
